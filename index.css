@@ -5,9 +5,23 @@ h1 {
     font-family: Arial, sans-serif;
     color: #222;
 }
-h2 
-{
+
+.center-wrapper {
+
+    display : flex; 
+    flex-direction : column;
+    align-items : center; 
+    justify-content: center;
+    min-height : 80vh; 
+    min-width : 1000px; 
+    position : relative;
+
+}
+
+.center-wrapper {
+
     text-align : center;
-    font-family: Arial, sans-serif;
-    color: #444;
+    margin-top : -40px;
+    margin-bottom : 40px;
+
 }
