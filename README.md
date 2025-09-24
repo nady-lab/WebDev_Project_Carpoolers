@@ -1,6 +1,6 @@
 # WebDev_Project_Carpoolers
 
-Creating a website for a car showcase. This website will be for client 4 and will be completed throughout semester 1. 
+Creating a website for a car showcase. This website will be for client 2 and will be completed throughout semester 1. 
 
 The website will be about trying to fill out the clients wishes. He wants a sleek and professional website. 
 
