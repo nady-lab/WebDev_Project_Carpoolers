@@ -1,23 +1,77 @@
- body {
-    background-color: #dadada;
-}
-
 h1 {
     font-family: 'Lato', sans-serif;
-    color: #333;
+    color: #ffffff;
     text-align: center;
     font-size: 50px;
 }
 
-p {
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+nav :visited {
+    color: #ffffff;
+}
+
+nav :hover {
+    color: red;
+}
+
+body {
+    background-color: #000;
+}
+
+p, div{
+    color: #fff;
+    margin-left: 10px;
+}
+
+section {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-align: left;
     margin-left: 20px;
-    color: #333;
+    color: #fff;
+}
+
+summary{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+}
+
+details {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+details :hover{
+    color: red;
 }
 
 strong {
     font-weight: bold;
-    color: #B71C1C;
+    color: #fff;
 }
+
+footer {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
