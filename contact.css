@@ -1,0 +1,47 @@
+h1 {
+    font-family: sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    background-color: #000;
+}
+
+input[type=text] {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+body {
+    background-color: lightgrey;
+
+}
+
+form{
+    text-align: right;
+    
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
