@@ -74,7 +74,14 @@ body {
 
 .image-credit 
 {
-    position : fixed
-    
+    position : fixed;
+    bottom: 5px;
+    right: 10px;
+    font-size : 10px;
+    color : #fff;
+    background: rgba(0,0,0,0.15);
+    padding: 2px 5px;
+    border-radius: 5px;
+    z-index: 10;
 }
 
