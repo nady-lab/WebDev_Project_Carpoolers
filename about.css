@@ -1,5 +1,11 @@
+.petit-formal-script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Petit Formal Script", cursive, sans-serif;
     color: #ffffff;
     text-align: center;
     font-size: 50px;
@@ -34,7 +40,7 @@ nav :visited {
 }
 
 nav :hover {
-    color: red;
+    color: rgb(170, 170, 170);
 }
 
 body {

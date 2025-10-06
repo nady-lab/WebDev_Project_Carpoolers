@@ -1,0 +1,137 @@
+.input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 4px;
+    margin-left: 2px;
+}
+nav a {
+    text-decoration: none;
+}
+
+.message-box {
+    width: 95%;
+    min-height: 120px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background: transparent;
+    color: #000;
+    padding: 8px 12px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+nav a:visited {
+    color: #000000;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+p, div{
+    color: #000000;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20ßpx;
+}
+h1 {
+    font-family: sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.contact-title {
+    flex: 1;
+    min-width: 220px;
+}
+
+body {
+    background-color: #000000;
+}
+
+input[type=text] {
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background: transparent;
+    color: #000000;
+    padding: 4px 12px;
+    margin-bottom: 10px;
+    font-family:'Lato', sans-serif;
+}
+
+.name-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+body {
+    background-color: lightgrey;
+
+}
+
+form{
+    text-align: center;
+    
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+

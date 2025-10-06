@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carpoolers - Contact</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wheels on Fire - Contact</title>
+  <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
-    <h1>Contact Wheels on Fire</h1>
-    <section>
-      <h2 class="centered">We'd love to hear from you!</h2>
-    </section>
-    <div class="center-wrapper">
-      <h2>Contact Form</h2>
-      <form action="/action_page.php">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" required><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="pnumber">Phone Number:</label>
-        <input type="tel" id="pnumber" name="pnumber"><br><br>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="about.html">About Us</a>
+  </nav>
+
+  <div class="container flex-row">
+    <div class="contact-title">
+      <h1>Get in touch.</h1>
+      <h2>wheelsonfire@gmail.com</h2>
+    </div>
+
+    <form class="contact-form">
+      <p>Your Name <small><strong>(required)</strong></small></p>
+
+      <div class="name-row">
+        <div class="input-group">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" class="short-box">
+        </div>
+
+        <div class="input-group">
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" class="short-box">
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email">
+      </div>
+
+      <div class="input-group">
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-    <div class="menu">
-      <details>
-        <summary>Menu</summary>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </details>
-    </div>
+        <textarea id="message" name="message" class="message-box" rows="5"></textarea>
+        <div class="input-group">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+      
+    </form>
+  </div>
 </body>
+
 </html>
