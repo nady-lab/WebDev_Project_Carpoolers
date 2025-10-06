@@ -17,8 +17,25 @@ h2 {
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 20px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.contact-title {
+    flex: 1;
+    min-width: 220px;
+}
+
+.contact-form {
+    flex: 2;
+    min-width: 300px;
 }
 
 body {
@@ -26,8 +43,24 @@ body {
 }
 
 input[type=text] {
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 8px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background: transparent;
+    color: #000;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+
+.name-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 body {
