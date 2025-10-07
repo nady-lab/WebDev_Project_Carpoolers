@@ -7,26 +7,37 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Wheels on Fire</h1> <!-- Main title -->
+      <div class="container">
+        <header>
+          <nav>
+            <a href="index.html">Home</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="about.html">About Us</a>
+          </nav>
+        </header>
+        <h1>Wheels on Fire</h1>
         <section>
-          <h2 class="centered">Your best choice for classic and modern cars.</h2> <!-- Subtitle -->
+          <h2 class="centered">Your best choice for classic and modern cars.</h2>
         </section>
-        <div class="center-wrapper"> <!-- quote of the day -->
-          <h2>Quote of the day</h2>
-          <blockquote> Never give up, never back down. </blockquote>
-          <input type="text" class="search-bar" placeholder="Search...">
+        <section class="featured-car-row">
+          <div class="featured-car-text">
+            <h2>Featured Car</h2>
+            <p>This is our featured car of the week!</p>
+          </div>
+          <div class="featured-car-image">
+            <img src="featured_car.jpg" alt="Featured Car" style="max-width:350px; border-radius:12px;">
+          </div>
+        </section>
+        <section class="car-collection">
+          <h2 style="text-align:center; margin-top:2em;">Other Cars in Our Collection</h2>
+          <div class="car-slots">
+            <div class="car-slot"><img src="slot1.jpg" alt="Car 2" style="max-width:180px; border-radius:8px;"></div>
+            <div class="car-slot"><img src="slot2.jpg" alt="Car 3" style="max-width:180px; border-radius:8px;"></div>
+            <div class="car-slot"><img src="slot3.jpg" alt="Car 4" style="max-width:180px; border-radius:8px;"></div>
+            <div class="car-slot"><img src="slot4.jpg" alt="Car 5" style="max-width:180px; border-radius:8px;"></div>
+          </div>
+        </section>
         </div>
-        <div class="menu">
-          <details>
-            <summary>Menu</summary> <!-- Menu dropdown -->
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </details>
-        </div>
-        <p class="image-credit">Background photo by Alexander-93 on https://commons.wikimedia.org/wiki/File:%C5%A0koda_Kodiaq_II_Auto_Zuerich_2023_1X7A0987.jpg#Licensing</p>
     </body>
 </html>
 
