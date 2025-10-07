@@ -33,14 +33,17 @@ nav {
     text-align: center;
     margin-bottom: 20px;
     color: #fff;
+    text-decoration: none;
 }
 
 nav :visited {
     color: #ffffff;
+    text-decoration: none;
 }
 
 nav :hover {
     color: rgb(170, 170, 170);
+    text-decoration: none;
 }
 
 body {
