@@ -33,6 +33,7 @@ nav {
     text-align: center;
     margin-bottom: 20px;
     color: #fff;
+    text-decoration: none;
 }
 
 nav :visited {
