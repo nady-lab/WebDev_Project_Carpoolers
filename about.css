@@ -43,6 +43,7 @@ nav :visited {
 
 nav :hover {
     color: rgb(170, 170, 170);
+    text-decoration: none;
 }
 
 body {
