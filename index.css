@@ -7,14 +7,20 @@
     gap: 32px;
 }
 .featured-car-text {
-    flex: 2;
+    flex: 1.2;
     font-size: 1.2em;
     color: #fff;
+    padding-left: 250px;
 }
 .featured-car-image {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    max-width: 720px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    left: -60px;
+
 }
 
 
@@ -80,7 +86,7 @@ h2 {
 }
 
 body {
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -121,4 +127,5 @@ nav a {
 
 p{
     font-family: "Lato",sans-serif;
+
 }
