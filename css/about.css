@@ -73,6 +73,12 @@ summary{
     font-size: 25px;
     text-align: left;
     color: #fff;
+    list-style-position: outside;
+    margin-left: 30px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style-type: '↠';
 }
 
 details {
@@ -81,7 +87,7 @@ details {
 }
 
 details :hover{
-    color: rgb(170, 170, 170);
+    color: rgba(255, 255, 255, 0.548);
 }
 
 strong {
