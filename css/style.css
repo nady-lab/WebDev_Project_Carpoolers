@@ -5,7 +5,7 @@
  :root {
     --gutter: 1rem;
     --max-width: 1200px;
-    --base-front: 16px;
+    --base-front: 1rem;
  }
  body {
     font-size: 1rem;
@@ -17,7 +17,7 @@
     margin: 0 auto;
     padding: var(--gutter);
  }
- img, video, iframe {max-width: auto; height:auto; display: block;}
+ img, video, iframe {max-width: 100%; height:auto; display: block;}
  p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
 
  header nav {
@@ -58,8 +58,7 @@ a:focus, button:focus, input:focus, textarea:focus {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 2em 0;
-    gap: 32px;  
+    margin: 2em 0;  
     gap: 1rem;
     flex-wrap:wrap;
 }
@@ -125,7 +124,8 @@ a:focus, button:focus, input:focus, textarea:focus {
     align-items: center;
     justify-content: center;
     min-height: 80vh;
-    min-width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     position: relative;
 
 }
