@@ -69,7 +69,7 @@ a:focus, button:focus, input:focus, textarea:focus {
     flex: 1 1 280px;
     font-size: 1.2em;
     color: #fff;
-    padding-left: 150px;
+    padding-left: auto;
 }
 
 .featured-car-image {
@@ -78,7 +78,7 @@ a:focus, button:focus, input:focus, textarea:focus {
     max-width: 720px;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 0px;
+    padding: auto;
 
 }
 
