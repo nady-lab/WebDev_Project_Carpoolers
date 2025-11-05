@@ -234,7 +234,18 @@ form {
     padding: 20px;
 }
 
-input[type=button],
+div {
+  transition-duration: 5s;
+}
+
+.button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6)
+}
+.button:hover {
+    box-shadow:0 8px 16px 0 rgba(255, 255, 255, 0.6)
+}
+
+/*input[type=button],
 input[type=submit],
 input[type=reset] {
     background-color: #fcfcfc;
@@ -246,7 +257,7 @@ input[type=reset] {
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
     font-size: 15px;
-}
+}*/
 
 /* about.html */
 
