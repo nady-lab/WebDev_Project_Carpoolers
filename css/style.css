@@ -1,53 +1,91 @@
 
 /* Responsive elements */
- * { box-sizing: border-box; }
- html, body { margin:0; padding:0; min-height:100%; }
+* {
+    box-sizing: border-box;
+}
 
- :root {
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+:root {
     --gutter: 1rem;
     --max-width: 1200px;
     --base-front: 1rem;
- }
- body {
+}
+
+body {
     font-size: 1rem;
     line-height: 1.5;
     color: white;
- }
- .container {
+}
+
+.container {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: var(--gutter);
- }
- img, video, iframe {max-width: 100%; height:auto; display: block;}
- p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+}
 
- header nav {
-    display:flex;
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+header nav {
+    display: flex;
     gap: .5rem;
     flex-wrap: wrap;
     align-items: auto;
- }
+}
+
 @media (min-width: 600px) {
     .car-slots {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media (min-width: 900px) {
     .car-slots {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-input, textarea, select, button {
-    width: 100%; max-width: 100%;
+
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    max-width: 100%;
 }
+
 @media (min-width: 1600px) {
-    .container{
+    .container {
         width: auto;
     }
 }
-a:focus, button:focus, input:focus, textarea:focus {
-  outline: 3px solid #8ab4ff;
-  outline-offset: 2px;
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid #8ab4ff;
+    outline-offset: 2px;
 }
 
 
@@ -75,7 +113,7 @@ a:focus, button:focus, input:focus, textarea:focus {
     flex-direction: row;
     align-items: center;
     margin: 2em 0;
-    gap: 32px;  
+    gap: 32px;
     gap: 1rem;
     flex-wrap: wrap;
     background: #fff;
@@ -310,14 +348,15 @@ form {
 }
 
 div {
-  transition-duration: 5s;
+    transition-duration: 5s;
 }
 
 .button {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6)
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6)
 }
+
 .button:hover {
-    box-shadow:0 8px 16px 0 rgba(255, 255, 255, 0.6)
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.6)
 }
 
 /*input[type=button],
@@ -427,3 +466,47 @@ footer p {
 }
 
 /* events.html */
+.event_slot1 {
+    width: 300px;
+    border: 15px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 20px;
+}
+
+.event_slot2 {
+    width: 300px;
+    border: 15px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Events page slots styling */
+.event-slots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+    margin: 2em 0;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.event-slot {
+    background: rgba(73, 67, 67, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1.2em 1em;
+    text-align: center;
+    color: #000000;
+    max-width: 320px;
+}
+
+.event-slot img {
+    display: block;
+    margin: 0 auto 0.5em auto;
+    max-width: 180px;
+    border-radius: 8px;
+}
+
+.events_h2{
+    text-align: center;
+}
