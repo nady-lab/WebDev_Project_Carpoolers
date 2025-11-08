@@ -253,9 +253,9 @@ p {
 /* contact.html */
 
 .contact_h1 {
-    font-family: sans-serif;
+    font-family: "Petit Formal Script", cursive, sans-serif;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     font-size: 50px;
     letter-spacing: -1px;
     margin-bottom: -10px;
