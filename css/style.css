@@ -249,7 +249,7 @@ p {
 /* contact.html */
 
 
-.input-group label {
+/*.input-group label {
     display: block;
     text-align: left;
     margin-bottom: 4px;
@@ -372,6 +372,75 @@ input[type=reset] {
     border-radius: 5px;
     font-size: 15px;
 }*/
+
+/* General layout */
+/*body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}*/
+
+/* Form layout */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #e11d48; /* rose-ish */
+  outline: none;
+}
+
+.name-row {
+  display: flex;
+  gap: 1rem; /* space between first name and surname */
+}
+
+/* Optional: make each field take equal space */
+.name-row .form-group {
+  flex: 1;
+}
+
+/* Button styling */
+.submit-btn {
+  background-color: #e11d48;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #be123c;
+}
+
 
 /* about.html */
 
