@@ -98,7 +98,7 @@ textarea:focus {
     flex: 1 1 280px;
     font-size: 1.2em;
     color: #000000;
-    padding-left: auto;
+    padding-left: center;
 }
 
 .featured-car-row-inner {
@@ -129,13 +129,14 @@ textarea:focus {
     margin-right: -50vw;
 }
 
+
 .featured-car-image {
     flex: 0 1 320px;
     display: flex;
     max-width: 720px;
     justify-content: flex-start;
     align-items: center;
-    padding: auto;
+    padding: center;
 
 }
 
