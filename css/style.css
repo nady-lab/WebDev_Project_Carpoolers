@@ -47,7 +47,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.featured-car-image{
     overflow-wrap: break-word;
 }
 
@@ -133,7 +134,7 @@ textarea:focus {
 .featured-car-image {
     flex: 0 1 320px;
     display: flex;
-    max-width: 720px;
+    max-width: auto;
     justify-content: flex-start;
     align-items: center;
     padding: center;
