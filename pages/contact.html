@@ -52,7 +52,18 @@
           <label for="phone">Phone</label>
           <input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" />
         </div>
-        
+
+        <!-- CSS for this hasn't been done yet -->
+        <div class="reason_enquiry">
+          <label for="reason"> Reason for enquiry:</label>
+          <select id="reason" name="reason" required>
+            <option value=""> Please select an option </option>
+              <option value="General">General</option>
+              <option value="Feedback">Feedback</option>
+              <option value="Technical">Technical Support</option>
+          </select>
+        </div>
+
         <div class="form-group">
           <label for="message">Message*</label>
           <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
@@ -62,5 +73,6 @@
       </form>
     </section>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
