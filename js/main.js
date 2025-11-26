@@ -11,7 +11,7 @@ form.addEventListener('submit', function(e) {
     const email = form.email.value.trim();
     const reason = form.reason.value.trim();
     const phone = form.phone.value.trim();
-    const message = form.message.teim();
+    const message = form.message.trim();
 
     //Regex patterns
     const NamePattern = /^[A-Za-z\s]+$/;
