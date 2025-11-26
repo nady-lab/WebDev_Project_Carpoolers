@@ -19,7 +19,7 @@ form.addEventListener('submit', function(e) {
     const PhonePattern = /^(\+353\s?|0)([1,2,4,5,6,7,8]\s?|\d{2,3}\s?)\d{3,4}\s?\d{4}$/;
 
     // if statements to validate the input
-    if (!NamePattern.test(firstname)) {
+    if (!NamePattern.test(first_name)) {
         alert("Please enter a Valid First name(Letters only)");
         return;
     }
