@@ -20,7 +20,7 @@ form.addEventListener('submit', function(e) {
 
     // if statements to validate the input
     if (!NamePattern.test(first_name)) {
-        alert("Please enter a Valid First name(Letters only)");
+        alert("Please enter a Valid First name (Letters only)");
         return;
     }
     if (!EmailPattern.test(surname)) {
